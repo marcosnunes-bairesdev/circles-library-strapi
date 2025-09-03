@@ -384,6 +384,12 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
   options: {
     draftAndPublish: true;
   };
+  pluginOptions: {
+    graphql: {
+      pluralName: 'events';
+      singularName: 'event';
+    };
+  };
   attributes: {
     circleGroup: Schema.Attribute.String & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
@@ -420,6 +426,12 @@ export interface ApiPersonPerson extends Struct.CollectionTypeSchema {
   };
   options: {
     draftAndPublish: false;
+  };
+  pluginOptions: {
+    graphql: {
+      pluralName: 'people';
+      singularName: 'person';
+    };
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -460,6 +472,12 @@ export interface ApiRecordingRecording extends Struct.CollectionTypeSchema {
   };
   options: {
     draftAndPublish: true;
+  };
+  pluginOptions: {
+    graphql: {
+      pluralName: 'recordings';
+      singularName: 'recording';
+    };
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;

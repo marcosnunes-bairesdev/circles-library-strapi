@@ -10,7 +10,12 @@
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "graphql": {
+      "singularName": "person",
+      "pluralName": "people"
+    }
+  },
   "attributes": {
     "name": {
       "type": "string",
@@ -24,13 +29,13 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::event.event",
-      "mappedBy": "performers"
+      "inversedBy": "performers"
     },
     "events_as_guest": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::event.event",
-      "mappedBy": "guests"
+      "inversedBy": "guests"
     }
   }
 }

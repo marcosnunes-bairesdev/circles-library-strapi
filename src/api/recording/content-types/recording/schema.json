@@ -10,7 +10,12 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "graphql": {
+      "singularName": "recording",
+      "pluralName": "recordings"
+    }
+  },
   "attributes": {
     "url": {
       "type": "string",
