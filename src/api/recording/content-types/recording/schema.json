@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recordings",
+  "info": {
+    "singularName": "recording",
+    "pluralName": "recordings",
+    "displayName": "Recording",
+    "description": "Video recordings for events"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "isPublished": {
+      "type": "boolean",
+      "default": false
+    },
+    "event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event",
+      "mappedBy": "recording"
+    }
+  }
+}
