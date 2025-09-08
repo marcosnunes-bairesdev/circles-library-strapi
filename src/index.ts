@@ -20,19 +20,24 @@ export default {
    * run jobs, or perform some special logic.
    */
   async bootstrap({ strapi }: { strapi: Core.Strapi }) {
-    try {
-      console.log('🌱 Starting database seeding...');
+    // Only run seeds in development mode
+    if (strapi.config.environment === 'development') {
+      try {
+        console.log('🌱 Starting database seeding (development mode)...');
 
-      // Seed in order due to dependencies
-      await seedPeople({ strapi });
-      await seedRecordings({ strapi });
-      await seedEvents({ strapi });
+        // Seed in order due to dependencies
+        await seedPeople({ strapi });
+        await seedRecordings({ strapi });
+        await seedEvents({ strapi });
 
-      console.log('✅ Database seeding completed successfully!');
-    } catch (error) {
-      console.error('❌ Database seeding failed:', error);
-      // Don't throw error to prevent Strapi from crashing
-      console.error('Continuing with Strapi startup...');
+        console.log('✅ Database seeding completed successfully!');
+      } catch (error) {
+        console.error('❌ Database seeding failed:', error);
+        // Don't throw error to prevent Strapi from crashing
+        console.error('Continuing with Strapi startup...');
+      }
+    } else {
+      console.log('🚀 Production mode: Skipping database seeding');
     }
   },
 };
