@@ -61,6 +61,102 @@ export const seedRecordings = async ({ strapi }: { strapi: any }) => {
     {
       url: 'https://drive.google.com/file/d/5x1QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
       isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/6y2QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/7z3QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/8a4QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/9b5QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/0c6QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/1d7QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/2e8QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/3f9QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/4g0QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/5h1QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/6i2QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/7j3QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/8k4QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/9l5QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/0m6QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/1n7QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/2o8QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/3p9QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/4q0QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/5r1QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/6s2QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/7t3QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/8u4QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
+    },
+    {
+      url: 'https://drive.google.com/file/d/9v5QHdBZtorUSLf6Qrm0o9S1otgcf00SG/view',
+      isPublished: true,
     }
   ];
 

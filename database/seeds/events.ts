@@ -167,6 +167,256 @@ export const seedEvents = async ({ strapi }: { strapi: any }) => {
       performers: [allPeople[3]], // Gabriela
       guests: [allPeople[0], allPeople[4]], // Valeria, Maria
       recording: allRecordings[14],
+    },
+    {
+      name: 'Frontend Circle: Advanced CSS and Styling Techniques',
+      description: 'Mastering modern CSS features, animations, and responsive design patterns.',
+      startDate: '2025-04-01T10:00:00-03:00',
+      endDate: '2025-04-01T11:30:00-03:00',
+      circleGroup: 'Frontend',
+      performers: [allPeople[2]], // Diego
+      guests: [allPeople[7]], // Pedro
+      recording: allRecordings[15],
+    },
+    {
+      name: 'Backend Circle: Database Design and Optimization',
+      description: 'Best practices for database schema design, indexing, and query optimization.',
+      startDate: '2025-04-05T14:00:00-03:00',
+      endDate: '2025-04-05T15:45:00-03:00',
+      circleGroup: 'Backend',
+      performers: [allPeople[4]], // Maria
+      guests: [allPeople[1]], // João
+      recording: allRecordings[16],
+    },
+    {
+      name: 'DevOps Circle: Container Orchestration with Kubernetes',
+      description: 'Deep dive into Kubernetes concepts, deployment strategies, and monitoring.',
+      startDate: '2025-04-10T09:00:00-03:00',
+      endDate: '2025-04-10T10:30:00-03:00',
+      circleGroup: 'DevOps',
+      performers: [allPeople[5]], // Carlos
+      guests: [allPeople[9]], // Roberto
+      recording: allRecordings[17],
+    },
+    {
+      name: 'Product Circle: Agile Product Management',
+      description: 'Effective product management techniques in agile environments.',
+      startDate: '2025-04-15T13:00:00-03:00',
+      endDate: '2025-04-15T14:30:00-03:00',
+      circleGroup: 'Product',
+      performers: [allPeople[6]], // Ana
+      guests: [allPeople[3]], // Gabriela
+      recording: allRecordings[18],
+    },
+    {
+      name: 'Design Circle: User Interface Design Principles',
+      description: 'Core principles of UI design, accessibility, and user-centered design.',
+      startDate: '2025-04-20T15:00:00-03:00',
+      endDate: '2025-04-20T16:30:00-03:00',
+      circleGroup: 'Design',
+      performers: [allPeople[7]], // Pedro
+      guests: [allPeople[0]], // Valeria
+      recording: allRecordings[19],
+    },
+    {
+      name: 'QA Circle: API Testing Strategies',
+      description: 'Comprehensive approaches to testing REST and GraphQL APIs.',
+      startDate: '2025-04-25T11:00:00-03:00',
+      endDate: '2025-04-25T12:30:00-03:00',
+      circleGroup: 'QA',
+      performers: [allPeople[8]], // Lucia
+      guests: [allPeople[2]], // Diego
+      recording: allRecordings[20],
+    },
+    {
+      name: 'Mobile Circle: Cross-Platform Development',
+      description: 'Comparing React Native, Flutter, and native development approaches.',
+      startDate: '2025-04-30T16:00:00-03:00',
+      endDate: '2025-04-30T17:30:00-03:00',
+      circleGroup: 'Mobile',
+      performers: [allPeople[9]], // Roberto
+      guests: [allPeople[4]], // Maria
+      recording: allRecordings[21],
+    },
+    {
+      name: 'Full-Stack Development: State Management Patterns',
+      description: 'Exploring state management solutions across the full stack.',
+      startDate: '2025-05-05T14:00:00-03:00',
+      endDate: '2025-05-05T15:45:00-03:00',
+      circleGroup: 'Full-Stack',
+      performers: [allPeople[1], allPeople[2]], // João, Diego
+      guests: [allPeople[5]], // Carlos
+      recording: allRecordings[22],
+    },
+    {
+      name: 'Agile Methodologies: Scrum Master Certification Prep',
+      description: 'Preparing for Scrum Master certification with practical examples.',
+      startDate: '2025-05-10T10:00:00-03:00',
+      endDate: '2025-05-10T11:30:00-03:00',
+      circleGroup: 'Agile',
+      performers: [allPeople[0], allPeople[3]], // Valeria, Gabriela
+      guests: [allPeople[6]], // Ana
+      recording: allRecordings[23],
+    },
+    {
+      name: 'Cloud Computing: Serverless Architecture Patterns',
+      description: 'Building scalable applications using serverless technologies and patterns.',
+      startDate: '2025-05-15T13:00:00-03:00',
+      endDate: '2025-05-15T14:30:00-03:00',
+      circleGroup: 'Cloud',
+      performers: [allPeople[5]], // Carlos
+      guests: [allPeople[1]], // João
+      recording: allRecordings[24],
+    },
+    {
+      name: 'Data Science: Data Visualization and Analytics',
+      description: 'Creating compelling data visualizations and extracting insights from data.',
+      startDate: '2025-05-20T15:00:00-03:00',
+      endDate: '2025-05-20T16:45:00-03:00',
+      circleGroup: 'Data Science',
+      performers: [allPeople[4]], // Maria
+      guests: [allPeople[7]], // Pedro
+      recording: allRecordings[25],
+    },
+    {
+      name: 'Security: OWASP Top 10 and Secure Coding',
+      description: 'Understanding and preventing the most common web application security risks.',
+      startDate: '2025-05-25T11:00:00-03:00',
+      endDate: '2025-05-25T12:30:00-03:00',
+      circleGroup: 'Security',
+      performers: [allPeople[2]], // Diego
+      guests: [allPeople[8]], // Lucia
+      recording: allRecordings[26],
+    },
+    {
+      name: 'Performance: Frontend Performance Optimization',
+      description: 'Advanced techniques for optimizing frontend performance and user experience.',
+      startDate: '2025-05-30T14:00:00-03:00',
+      endDate: '2025-05-30T15:30:00-03:00',
+      circleGroup: 'Performance',
+      performers: [allPeople[1], allPeople[7]], // João, Pedro
+      guests: [allPeople[9]], // Roberto
+      recording: allRecordings[27],
+    },
+    {
+      name: 'Innovation: AI and Machine Learning in Development',
+      description: 'Integrating AI and ML capabilities into software applications.',
+      startDate: '2025-06-05T16:00:00-03:00',
+      endDate: '2025-06-05T17:30:00-03:00',
+      circleGroup: 'Innovation',
+      performers: [allPeople[3], allPeople[4]], // Gabriela, Maria
+      guests: [allPeople[0]], // Valeria
+      recording: allRecordings[28],
+    },
+    {
+      name: 'Frontend Circle: TypeScript Advanced Patterns',
+      description: 'Advanced TypeScript features and patterns for large-scale applications.',
+      startDate: '2025-06-10T10:00:00-03:00',
+      endDate: '2025-06-10T11:30:00-03:00',
+      circleGroup: 'Frontend',
+      performers: [allPeople[2]], // Diego
+      guests: [allPeople[1]], // João
+      recording: allRecordings[29],
+    },
+    {
+      name: 'Backend Circle: Microservices Communication Patterns',
+      description: 'Designing effective communication between microservices.',
+      startDate: '2025-06-15T14:00:00-03:00',
+      endDate: '2025-06-15T15:45:00-03:00',
+      circleGroup: 'Backend',
+      performers: [allPeople[4]], // Maria
+      guests: [allPeople[5]], // Carlos
+      recording: allRecordings[30],
+    },
+    {
+      name: 'DevOps Circle: Infrastructure as Code',
+      description: 'Managing infrastructure using code with Terraform and CloudFormation.',
+      startDate: '2025-06-20T09:00:00-03:00',
+      endDate: '2025-06-20T10:30:00-03:00',
+      circleGroup: 'DevOps',
+      performers: [allPeople[5]], // Carlos
+      guests: [allPeople[6]], // Ana
+      recording: allRecordings[31],
+    },
+    {
+      name: 'Product Circle: User Story Mapping and Prioritization',
+      description: 'Effective techniques for mapping user journeys and prioritizing features.',
+      startDate: '2025-06-25T13:00:00-03:00',
+      endDate: '2025-06-25T14:30:00-03:00',
+      circleGroup: 'Product',
+      performers: [allPeople[6]], // Ana
+      guests: [allPeople[3]], // Gabriela
+      recording: allRecordings[32],
+    },
+    {
+      name: 'Design Circle: Design Thinking Workshop',
+      description: 'Hands-on workshop on design thinking methodology and application.',
+      startDate: '2025-06-30T15:00:00-03:00',
+      endDate: '2025-06-30T16:30:00-03:00',
+      circleGroup: 'Design',
+      performers: [allPeople[7]], // Pedro
+      guests: [allPeople[0], allPeople[6]], // Valeria, Ana
+      recording: allRecordings[33],
+    },
+    {
+      name: 'QA Circle: Performance Testing Strategies',
+      description: 'Load testing, stress testing, and performance optimization techniques.',
+      startDate: '2025-07-05T11:00:00-03:00',
+      endDate: '2025-07-05T12:30:00-03:00',
+      circleGroup: 'QA',
+      performers: [allPeople[8]], // Lucia
+      guests: [allPeople[1]], // João
+      recording: allRecordings[34],
+    },
+    {
+      name: 'Mobile Circle: App Store Optimization',
+      description: 'Strategies for optimizing mobile apps for app store visibility and downloads.',
+      startDate: '2025-07-10T16:00:00-03:00',
+      endDate: '2025-07-10T17:30:00-03:00',
+      circleGroup: 'Mobile',
+      performers: [allPeople[9]], // Roberto
+      guests: [allPeople[2]], // Diego
+      recording: allRecordings[35],
+    },
+    {
+      name: 'Full-Stack Development: Real-time Applications',
+      description: 'Building real-time features using WebSockets, Server-Sent Events, and more.',
+      startDate: '2025-07-15T14:00:00-03:00',
+      endDate: '2025-07-15T15:45:00-03:00',
+      circleGroup: 'Full-Stack',
+      performers: [allPeople[1], allPeople[4]], // João, Maria
+      guests: [allPeople[8]], // Lucia
+      recording: allRecordings[36],
+    },
+    {
+      name: 'Agile Methodologies: Kanban vs Scrum',
+      description: 'Comparing Kanban and Scrum methodologies for different project types.',
+      startDate: '2025-07-20T10:00:00-03:00',
+      endDate: '2025-07-20T11:30:00-03:00',
+      circleGroup: 'Agile',
+      performers: [allPeople[0], allPeople[6]], // Valeria, Ana
+      guests: [allPeople[3]], // Gabriela
+      recording: allRecordings[37],
+    },
+    {
+      name: 'Cloud Computing: Multi-Cloud Strategies',
+      description: 'Designing applications that work across multiple cloud providers.',
+      startDate: '2025-07-25T13:00:00-03:00',
+      endDate: '2025-07-25T14:30:00-03:00',
+      circleGroup: 'Cloud',
+      performers: [allPeople[5]], // Carlos
+      guests: [allPeople[4]], // Maria
+      recording: allRecordings[38],
+    },
+    {
+      name: 'Data Science: Big Data Processing with Apache Spark',
+      description: 'Processing large datasets using Apache Spark and distributed computing.',
+      startDate: '2025-07-30T15:00:00-03:00',
+      endDate: '2025-07-30T16:45:00-03:00',
+      circleGroup: 'Data Science',
+      performers: [allPeople[4]], // Maria
+      guests: [allPeople[9]], // Roberto
+      recording: allRecordings[39],
     }
   ];
 
