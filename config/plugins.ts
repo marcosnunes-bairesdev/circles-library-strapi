@@ -6,6 +6,7 @@ export default () => ({
       maxLimit: 100,
       apolloServer: {
         introspection: true,
+        playground: true,
       },
       // Ensure proper population of relationships
       populateDepth: 5,
